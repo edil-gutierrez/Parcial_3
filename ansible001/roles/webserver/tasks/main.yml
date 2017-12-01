@@ -15,11 +15,6 @@
 - name: instalando apache
   apt:
     name: apache2
-    state: present  
-    
-- name: Instalando jmeter
-  apt:
-    name: jmeter
     state: present
 
 - name: Iniciando servicios de Apache2
