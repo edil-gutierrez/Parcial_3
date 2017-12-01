@@ -12,9 +12,14 @@
     - php7.0-mysql
     - libapache2-mod-php7.0
 
-- name: Installing apache
+- name: instalando apache
   apt:
     name: apache2
+    state: present
+    
+- name: Instalando jmeter
+  apt:
+    name: jmeter
     state: present
 
 - name: Iniciando servicios de Apache2
