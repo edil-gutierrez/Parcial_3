@@ -15,13 +15,7 @@
 - name: instalando apache
   apt:
     name: apache2
-    state: present
-    
-    - name: Instalando java
-  apt:
-    name: openjdk-7-jre-headless
-    state: present
-   
+    state: present  
     
 - name: Instalando jmeter
   apt:
