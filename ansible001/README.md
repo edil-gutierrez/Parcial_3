@@ -11,6 +11,7 @@ ansible-playbook -i ../hosts webserver.yml
 ansible-playbook -i ../hosts munin-node.yml
 ```
 <img src="https://raw.githubusercontent.com/edil-gutierrez/Parcial_3/master/ansible001/Captura%20de%20pantalla%202017-12-01%20a%20las%2012.01.05%20p.m..png" />
+
 ### Tercer paso, instalación de munin mendiante ansible.
 
 ```
